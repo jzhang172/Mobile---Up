@@ -1,0 +1,49 @@
+.container{
+	background:blue;
+	height:200px;
+	width:600px;
+
+	display:flex;
+	
+
+
+}
+
+.one{
+	height:100px;
+	width:100px;
+	float:left;
+	
+	margin:10px 10px 10px 10px;
+	
+}
+.two{
+order:2;
+	background: gray;
+	
+	
+}
+.three{
+	order:1;
+	background: red;
+}
+.four{
+	order:4;
+	background: yellow;
+}
+.five{
+	order:3;
+	background: white;
+}
+/*-=-=-=-=-=-=-=*/
+.first, .second, .third, .fourth{
+	height:100px;
+	width:100px;
+	background:orange;
+	margin-right:20px;
+
+}
+
+.second{
+	order:4;
+}
